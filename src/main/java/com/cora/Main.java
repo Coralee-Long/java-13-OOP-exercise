@@ -12,5 +12,14 @@ public class Main {
         System.out.println(car);
         System.out.println(motorcycle);
 
+        Animal animal1 = new Animal("giraffe", "mammal");
+        Animal animal2 = new Animal("eagle", "bird");
+        Animal animal3 = new Animal("tortoise", "reptile");
+
+        System.out.println(animal1);
+        System.out.println(animal2);
+        System.out.println(animal3);
+
+        System.out.println(Calculator.add(1,2));
     }
 }

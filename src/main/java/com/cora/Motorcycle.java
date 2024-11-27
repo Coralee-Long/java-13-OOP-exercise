@@ -12,6 +12,7 @@ public class Motorcycle extends Vehicle {
         return type;
     }
 
+    // getManufacturer() and the other getter/setter methods allow the Child to access the Parent's private fields
     @Override
     public String toString() {
         return "Motorcycle{" +
